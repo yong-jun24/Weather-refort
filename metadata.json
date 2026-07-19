@@ -1,0 +1,6 @@
+{
+  "name": "LCB Corporation Weather",
+  "description": "WeatherAPI와 Gemini AI를 활용하여 현재 날씨 및 예보를 제공하고 맞춤형 일기예보 요약을 알려주는 세련된 날씨 웹 어플리케이션입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
