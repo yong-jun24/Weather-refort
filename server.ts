@@ -288,7 +288,7 @@ app.get("/api/weather", async (req, res) => {
     try {
       // Fetch data from real WeatherAPI.com
       // Supported parameters: days=3, aqi=yes, alerts=no, lang=ko (Korean translations!)
-      const url = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${encodeURIComponent(query)}&days=3&aqi=yes&alerts=no&lang=ko`;
+      const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${encodeURIComponent(query)}&days=3&aqi=yes&alerts=no&lang=ko`;
       const response = await fetch(url);
       
       if (!response.ok) {
